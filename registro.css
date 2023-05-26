@@ -22,10 +22,20 @@ nav ul li {
     display: inline;
     padding-inline-start: 100px;
     font-size: 20px;
+
     
 }
 
 p {
     font-size: 20px;
     color: green;
+}
+div {
+    display: flex;
+    
+}
+
+div input {
+    display: flex;
+    justify-content: center;
 }
