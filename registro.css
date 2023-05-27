@@ -14,17 +14,25 @@ body {
 h1 {
     font-size: 50px;
 }
-nav ul {
-    list-style: none;
-}
-
 nav ul li {
-    display: inline;
-    padding-inline-start: 100px;
+    padding: 30px;
     font-size: 20px;
-
     
 }
+
+img {
+    border: solid 3px lightgreen;
+}
+
+ul li {
+    font-size: 20px;
+    list-style: none;
+}
+nav ul {
+    display: flex;
+    justify-content: flex-end;
+}
+
 
 p {
     font-size: 20px;
