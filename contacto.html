@@ -29,26 +29,22 @@
     <main>
         <h2 class="titulo-contactos">Contactos</h2>
         <div>
-            <form action="">
-                <ul>
-                    <li>
-                        <label for="name">Nombre</label>
-                        <input type="text" name="name" id="name">
-                    </li>
-                    <li>
-                        <label for="email">Email</label>
-                        <input type="email" name="email" id="email">
-                    </li>
-                    <li>
-                        <label for="mensaje">Mensaje</label>
-                        <textarea name="msj" id="msj" cols="30" rows="10"></textarea>
-                    </li>
-                    <li>
-                        <label for="submit"></label>
-                        <button type="submit">Enviar</button>
-                    </li>
-                </ul>
-            </form> 
+            <form action="/action_page.php">
+                <div class="mb-3 mt-3">
+                    <label for="nombre" class="form-label">Nombre Completo:</label>
+                    <input type="nombre" class="form-control" id="nombre" placeholder="Ingrese nombre completo" name="nombre completo">
+                  </div>
+    
+                <div class="mb-3 mt-3">
+                    <label for="email" class="form-label">Email:</label>
+                    <input type="email" class="form-control" id="email" placeholder="Ingrese email" name="email">
+                  </div>
+                  
+                
+                <button type="submit" class="btn btn-primary">Enviar</button>
+              </form> 
+
+              
         </div>
     </main>
 
