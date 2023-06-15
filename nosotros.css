@@ -4,35 +4,71 @@
     font-family: 'Poppins', sans-serif;
 }
 
-body {
-    background-image: url('fondo11.jpg');
-    background-attachment: fixed;
-    background-repeat: repeat;
-    background-size: contain;
-    
-}
-h1 {
-    font-size: 50px;
-}
-nav ul {
-    list-style: none;
-}
-
-nav ul li {
-    padding: 30px;
-    font-size: 20px;
-    
-}
-
-img {
-    border: solid 3px lightgreen;
-}
-
-ul li {
-    font-size: 20px;
-    list-style: none;
-}
-nav ul {
+header {
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+.logo-img {
+    height: 50px;
+    margin-right: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: blueviolet;
+    font-size: x-large;
+}
+
+nav a {
+    font-weight: 600;
+    padding-right: 10px;
+}
+
+nav a:hover {
+    color: crimson
+}
+
+
+main {
+    width: 60%;
+    margin: 0 auto;
+}
+
+h2 {
+    text-align: center;
+    color: rgb(111, 10, 114);
+}
+
+h2:hover {
+    font-size: 30px;
+}
+
+.seccion1{
+    margin-top: 35px;
+}
+.seccion1  p{
+    margin-top: 10px;
+}
+
+.seccion2{
+    margin-top: 45px;
+}
+
+.seccion2 p{
+    margin-top: 10px;
+}
+
+.seccion3{
+    margin-top: 55px;
+}
+
+.seccion3 p{
+    margin-top: 10px;
 }
