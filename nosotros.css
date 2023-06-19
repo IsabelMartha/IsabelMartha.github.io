@@ -1,38 +1,58 @@
-* {
+ * {
     margin: 0;
     padding: 0;
-    font-family: 'Poppins', sans-serif;
+	font-family: 'Poppins', sans-serif;
 }
 
-body {
-    background-image: url('fondo11.jpg');
-    background-attachment: fixed;
-    background-repeat: repeat;
-    background-size: contain;
-    
-}
-h1 {
-    font-size: 50px;
-}
-nav ul {
-    list-style: none;
+ul {
+	list-style-type: none;
+	margin-left: 37%;
+	padding: 0;
 }
 
-nav ul li {
-    padding: 30px;
-    font-size: 20px;
-    
+.rating {
+	margin-left: 37%;
+}
+
+main {
+    width: 60%;
+    margin: 0 auto;
+}
+
+h2 {
+    text-align: center;
+    color: rgb(111, 10, 114);
+}
+
+h2:hover {
+    font-size: 30px;
+}
+
+.seccion1{
+    margin-top: 35px;
+}
+.seccion1  p{
+    margin-top: 10px;
+}
+
+.seccion2{
+    margin-top: 45px;
+}
+
+.seccion2 p{
+    margin-top: 10px;
+}
+
+.seccion3{
+    margin-top: 55px;
+}
+
+.seccion3 p{
+    margin-top: 10px;
 }
 
 img {
-    border: solid 3px lightgreen;
+	max-width: 500px;
+	height: auto;
 }
-
-ul li {
-    font-size: 20px;
-    list-style: none;
-}
-nav ul {
-    display: flex;
-    justify-content: flex-end;
-}
+  
