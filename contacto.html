@@ -1,30 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" type="image/png" sizes=""  href="favicon.png">
-    <link rel="stylesheet" href="contacto.css">
+	<meta name="keywords" content="pets shops,gato,perro">
+	<meta name="description" content="Pagina de inicio, productos destacados,blog">
+    <link rel="icon" type="image/png" sizes="" href="favicon.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,500;0,600;1,300&display=swap" rel="stylesheet">
-    <title>Contacto</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,500;0,600;1,300&display=swap"rel="stylesheet">
+	<link rel="stylesheet" href="index.css">
+    <title>Pelitos Pets Shops</title>
 </head>
 <body>
-    <header>
-        <h1>Pelitos</h1>
-        <section>
-            <nav>
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="nosotros.html">Nosotros</a></li>
-                    <li><a href="registro.html">Registrarse</a></li>
-                    <li><a href="tienda.html">Tienda</a></li>
-                </ul>
-            </nav>
-        </section>
-    </header>
+  <nav class="navbar navbar-expand-lg fs-5 bg-body-tertiary navbar bg-dark border-bottom border-bottom-dark" data-bs-theme="dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" class="fs-1" href="index.html"><img src="favicon.png" alt="logo"  width="50" height="50"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active"  aria-current="page" href="nosotros.html">Nosotros</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="registro.html">Registro</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="contacto.html">Contacto</a>
+          <li class="nav-item">
+            <a class="nav-link active" href="tienda.html">Tienda</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
 
     <main>
         <h2 class="titulo-contactos">Contactos</h2>
@@ -53,7 +67,38 @@
         </div>
     </main>
 
+    <main>
+        <h2 class="titulo-contactos">Contactos</h2>
+        <p>Enviá tu consulta por este medio y te contactaremos a la brevedad</p>
+        <form>
+            <div class="row">
+                <div class="col">
+                    <input type="text" class="form-control" placeholder="Nombre" aria-label="Nombre">
+                </div>
+                <div class="col">
+                    <input type="text" class="form-control" placeholder="Apellido" aria-label="Apellido">
+                </div>
+            </div>
+            <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label">Correo electrónico</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                <div id="emailHelp" class="form-text">Nunca compartiremos su correo electrónico con nadie más.</div>
+            </div>
+            <div class="form-floating">
+                <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
+                <label for="floatingTextarea">Asunto</label>
+            </div>
+            <div class="form-floating">
+                <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2"
+                    style="height: 100px"></textarea>
+                <label for="floatingTextarea2">Mensaje</label>
+            </div>
+            <button type="button" class="btn btn-primary">Enviar</button>
     
+    
+    
+        </form>
+    </main>
 
 
 </body>

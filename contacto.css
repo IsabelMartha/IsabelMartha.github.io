@@ -1,36 +1,15 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: 'Poppins', sans-serif;
+	font-family: 'Poppins', sans-serif;
 }
 
-body {
-    background-image: url('fondo11.jpg');
-    background-attachment: fixed;
-    background-repeat: repeat;
-    background-size: contain;
-    
-}
-h1 {
-    font-size: 50px;
-}
-nav ul {
-    list-style: none;
+ul {
+	list-style-type: none;
+	margin-left: 37%;
+	padding: 0;
 }
 
-nav ul li {
-    display: inline;
-    padding-inline-start: 100px;
-    font-size: 20px;
-    
-}
-
-
-div {
-    display: flex;
-}
-
-div input {
-    display: flex; 
-    justify-content: center;
+.rating {
+	margin-left: 37%;
 }
