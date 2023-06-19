@@ -3,34 +3,60 @@
     padding: 0;
     font-family: 'Poppins', sans-serif;
 }
-
-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px;
+* {
+    margin: 0;
+    padding: 0;
+	font-family: 'Poppins', sans-serif;
 }
 
-.logo {
-    display: flex;
-    align-items: center;
-}
-.logo-img {
-    height: 50px;
-    margin-right: 10px;
+ul {
+	list-style-type: none;
+	margin-left: 37%;
+	padding: 0;
 }
 
-a {
-    text-decoration: none;
-    color: blueviolet;
-    font-size: x-large;
+.rating {
+	margin-left: 37%;
 }
 
-nav a {
-    font-weight: 600;
-    padding-right: 10px;
+.page {
+	background-color: #dfe6e0;
+	padding: 2%;
+	margin: auto;
 }
 
-nav a:hover {
-    color: crimson;
+.fa {
+	color: #f2dd1d;
 }
+
+.card-img-top {
+	width: 90%;
+	height: 225px;
+}
+
+.view {
+	background-color: #dfe6e0;
+	padding: 10px;
+	margin: 20px;
+}
+
+.card {
+	width: 95%;
+	padding: 0px;
+	margin-left: 2%;
+}
+
+.card-footer {
+	background-color: #ff772e;
+	font-weight: 700;
+}
+
+.price {
+	color: #ff4517;
+	font-weight: 600;
+}
+img {
+	max-width: 500px;
+	height: auto;
+}
+  
