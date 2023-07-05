@@ -4,3 +4,19 @@
 	font-family: 'Poppins', sans-serif;
 }
 
+.contenedor{
+    /* width: 80%; */
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contenedor form{
+    width: 600px;
+}
+
+@media screen and (max-width:600px){
+    .contenedor form{
+        width: 100%;
+    }
+}
