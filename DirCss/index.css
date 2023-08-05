@@ -4,11 +4,16 @@
 	font-family: 'Poppins', sans-serif;
 }
 
+body {
+	background-color: rgb(247, 237, 252);
+}
+
 ul {
 	list-style-type: none;
 	margin-left: 37%;
 	padding: 0;
 }
+
 
 .rating {
 	margin-left: 37%;
