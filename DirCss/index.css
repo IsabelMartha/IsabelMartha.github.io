@@ -63,7 +63,18 @@ section {
 	color: #ff4517;
 	font-weight: 600;
 }
-footer {
-	background-color: rgb(247, 237, 252);
-	text-align: center;
+a {
+	text-decoration: none;
+}
+#facebook {
+	color: rgb(24, 119, 242);
+}
+#instagram {
+	color:rgb(212, 48, 137); 
+}
+#twitter {
+	color: rgb(29, 161, 242);
+}
+#whatsapp {
+	color: rgb(17, 218, 61);
 }
