@@ -83,3 +83,18 @@ main section .grid-container .container-form{
 main section .grid-container .container-form .title-container .container-conection{
     margin-top: 40px;
 }
+a {
+	text-decoration: none;
+}
+#facebook {
+	color: rgb(24, 119, 242);
+}
+#instagram {
+	color:rgb(212, 48, 137); 
+}
+#twitter {
+	color: rgb(29, 161, 242);
+}
+#whatsapp {
+	color: rgb(17, 218, 61);
+}
