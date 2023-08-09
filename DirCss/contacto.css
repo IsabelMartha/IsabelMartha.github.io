@@ -4,19 +4,82 @@
 	font-family: 'Poppins', sans-serif;
 }
 
-.contenedor{
-    /* width: 80%; */
-    display:flex;
+main section .grid-container {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+
+main section .titles h1{
+    color: #20165d; 
+    background-color: orange;
+    padding: 30px 0;
+    text-align: center;
+}
+
+
+main section .titles .description{
+    margin-top: 70px;
+    padding: 0 10px;
+    text-align: center;
+
+}
+
+
+main section .titles .description-extra{
+    text-align: center;
+}
+
+main section .grid-container .title-container{
+    color: #20165d; 
+    padding: 0 10px;
+}
+
+main section .grid-container .title-container h3{
+    margin-top: 25px;
+}
+
+
+main section .grid-container .icons-container{
+    margin-top: 35px;
+    display: flex;
     flex-direction: column;
-    align-items: center;
+    padding: 0 20px;
 }
 
-.contenedor form{
-    width: 600px;
+main section .grid-container .icons-container div{
+    margin-top: 15px;
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Divide en dos columnas iguales */
+    gap: 10px; /* Espacio entre las celdas, ajusta según lo desees */
 }
 
-@media screen and (max-width:600px){
-    .contenedor form{
-        width: 100%;
-    }
+main section .grid-container .title-container .mb-3{
+    color: black;
+}
+
+@media screen and (max-width:767px){
+  .grid-container {
+    grid-template-columns: 1fr;
+  }
+}
+
+
+
+main section .grid-container .container-direction{
+    width: 80%;
+    margin: 43px auto 0;
+    
+}
+
+main section .grid-container .container-form{
+    width: 80%;
+    margin: 40px auto 0;
+
+}
+
+main section .grid-container .container-form .title-container .container-conection{
+    margin-top: 40px;
 }
