@@ -3,6 +3,16 @@
      padding: 0;
      font-family: 'Poppins', sans-serif;
  }
+ .container {
+	padding: 2%;
+	margin: auto;
+}
+
+ul {
+	list-style-type: none;
+	margin-left: 37%;
+	padding: 0;
+}
 
  main .container-sections section h2{
    color: #20165d; 
