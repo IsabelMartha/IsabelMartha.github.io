@@ -58,6 +58,8 @@ main section .grid-container .title-container{
     color:rgb(247, 237, 252);
 }
 
+
+
 main section .grid-container .title-container h3{
     margin-top: 25px;
 }
@@ -83,13 +85,20 @@ main section .grid-container .title-container .mb-3{
     color: black;
 }
 
+.dark main section .grid-container .title-container .mb-3{
+    color: rgb(245, 238, 238);
+}
+
+
 @media screen and (max-width:767px){
   .grid-container {
     grid-template-columns: 1fr;
   }
 }
 
-
+.dark main section .grid-container .container-direction .icons-container span{
+    color:aliceblue;
+}
 
 main section .grid-container .container-direction{
     width: 80%;
