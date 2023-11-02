@@ -24,11 +24,12 @@ main section .grid-container {
 
 
 main section .titles h1{
-    color: #20165d; 
-    background-color: orange;
-    padding: 30px 0;
-    text-align: center;
+    color: #f6f6f8; 
+    background-color: rgb(44, 44, 43);
+    padding: 7px 0;
+    text-align:left;
 }
+
 
 
 main section .titles .description{
@@ -46,6 +47,15 @@ main section .titles .description-extra{
 main section .grid-container .title-container{
     color: #20165d; 
     padding: 0 10px;
+}
+
+.dark main section .grid-container .title-container{
+    color: #7d7db4; 
+    padding: 0 10px;
+}
+
+.dark main section p{
+    color:rgb(247, 237, 252);
 }
 
 main section .grid-container .title-container h3{

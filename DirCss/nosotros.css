@@ -20,10 +20,23 @@ ul {
    text-align: center;
  }
 
+ .dark main .container-sections section h2{
+	color: #594f96; 
+	padding: 30px 0;
+	text-align: center;
+}
+
  main .container-sections {
    padding: 30px 0;
    text-align: center;
  }
+
+ .dark main .container-sections {
+	padding: 30px 0;
+	text-align: center;
+	color: rgb(250, 242, 242);
+}
+
 
  a {
 	text-decoration: none;
