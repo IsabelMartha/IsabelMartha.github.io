@@ -1,5 +1,4 @@
-const productos = getProductos();
-showProducto(productos);
+getProductos(showProducto);
 
 function showProducto(productos){
     const listaProducto = document.getElementById("products");
