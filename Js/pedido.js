@@ -1,6 +1,6 @@
 async function getProductos(show) {
     try {
-        response = await fetch("https://localhost:7074/Producto/idType");
+        response = await fetch("https://localhost:7074/Producto/1");
         json = await response.json();
         
         show(json);
