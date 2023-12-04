@@ -16,8 +16,8 @@ div.innerHTML =  `
 <div class="card card-cascade card-ecommerce wider shadow mb-5">
     <!--Card image-->
     <div class="view view-cascade overlay text-center image-container">
-        <img class="card-img-top img-background" src="${producto.img}" alt="piloto">
-        <img class="card-img-top img-front" src="${producto.img}" alt="piloto">
+        <img class="card-img-top img-background" src="https://localhost:7074${producto.img}" alt="piloto">
+        <img class="card-img-top img-front" src="https://localhost:7074${producto.img}" alt="piloto">
     </div>
     <!--Card Body-->
     <div class="card-body card-body-cascade text-center">
