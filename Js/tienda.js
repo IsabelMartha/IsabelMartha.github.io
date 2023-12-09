@@ -2,7 +2,7 @@ getProductos(showProducto);
 
 function showProducto(productos){
     const listaProducto = document.getElementById("products");
-    for(const producto of productos) {
+    for(const producto of productos.list) {
         const product = new Producto(producto);
         const template = getTemplate(product);
         listaProducto.append(template);
@@ -16,8 +16,8 @@ div.innerHTML =  `
 <div class="card card-cascade card-ecommerce wider shadow mb-5">
     <!--Card image-->
     <div class="view view-cascade overlay text-center image-container">
-        <img class="card-img-top img-background" src="${producto.img}" alt="piloto">
-        <img class="card-img-top img-front" src="${producto.img}" alt="piloto">
+        <img class="card-img-top img-background" src="https://localhost:7074${producto.img}" alt="piloto">
+        <img class="card-img-top img-front" src="https://localhost:7074${producto.img}" alt="piloto">
     </div>
     <!--Card Body-->
     <div class="card-body card-body-cascade text-center">
