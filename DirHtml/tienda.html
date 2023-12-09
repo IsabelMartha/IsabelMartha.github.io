@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -16,6 +17,7 @@
 	<link rel="stylesheet" href="/DirCss/index.css">
 	<title>Tienda</title>
 </head>
+
 <body>
 	<header>
 		<nav class="navbar navbar-expand-lg fs-5 bg-body-tertiary navbar bg-dark border-bottom border-bottom-dark"
@@ -23,11 +25,11 @@
 			<div class="container-fluid">
 				<a class="navbar-brand" class="fs-1" href="index.html"><img src="../Images/favicon.png" alt="logo"
 						width="50" height="50"></a>
-					<button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-						data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
-						aria-label="Toggle navigation">
-						<span class="navbar-toggler-icon"></span>
-					</button>
+				<button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+					data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+					aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
 				<div class="collapse navbar-collapse" id="navbarNavDropdown">
 					<ul class="navbar-nav">
 						<li class="nav-item">
@@ -49,61 +51,77 @@
 				</div>
 			</div>
 		</nav>
-<main>
+		<main>
 
-<div class="col-xs-4 col-md-4 col-lg-4 col-sm-6">
-	<form class="d-flex" role="search">
-		<input class="form-control me-2" type="search" placeholder="Buscar producto" aria-label="Search">
-		<button class="btn btn-outline-success" type="submit">Buscar</button>
-	</form>
-</div>
-<section>
-	<div class="text-bg-dark p-3 fs-5 h2">Linea Perros</div>
-	<!--Por Pagina-->
-	<div class="container">
-		<!--Filas-->
-		<div class="row" id="products">
-			<!--Card 1 -->
-		</div>
-	</div>
-</section>
 
-<nav aria-label="Page navigation example">
-	<ul class="pagination justify-content-center">
-	  <li class="page-item disabled">
-		<a class="page-link" href="#" tabindex="-1" aria-disabled="true">Anterior</a>
-	  </li>
-	  <li class="page-item"><a class="page-link" href="#">1</a></li>
-	  <li class="page-item"><a class="page-link" href="#">2</a></li>
-	  <li class="page-item"><a class="page-link" href="#">3</a></li>
-	  <li class="page-item">
-		<a class="page-link" href="#">Siguiente</a>
-	  </li>
-	</ul>
-</nav>
-</main>
-<footer class="container-fluid bg-dark text-white text-center py-3">
-	<p>©copy; 2023 Pelitos. Todos los derechos reservados.</p>
-	<a href="#" id="facebook">
-		<i class="bi bi-facebook"></i>
-	</a>
-	<a href="#" id="instagram">
-		<i class="bi bi-instagram"></i>
-	</a>
-	<a href="#" id="twitter">
-		<i class="bi bi-twitter"></i>
-	</a>
-	<a href="#" id="whatsapp">
-		<i class="bi bi-whatsapp"></i>
-	</a>
-</footer>
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
-	integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
-	crossorigin="anonymous"></script>
-<script src="../Js/pedido.js"></script>
-<script src="../Js/productos.js"></script>
-<script src="../Js/tienda.js"></script>
-<script src="../Js/index.js"></script> 
+
+
+
+
+
+			<section>
+				
+
+				<div class="producto-list">
+					<input type="text" id="txt_query" placeholder="Buscar Productos"/>
+					<div class="text-bg-dark p-3 fs-5 h2">Linea Perros</div>
+					<div id="producto_list">
+
+					</div>
+
+					
+
+					
+					<nav>
+						<ul class="pagination justify-content-center">
+							<li class="page-item">
+								<a class="page-link" id="first_producto" tabindex="-1" aria-disabled="false"><<</a>
+							</li>
+							<li class="page-item">
+								<a class="page-link" id="prev_producto" tabindex="-1" aria-disabled="false"><</a>
+							</li>
+							<li class="page-item disabled">
+								<a class="page-link" aria-disabled="true"><strong id="page_producto">1</strong></a>
+							</li>
+							<li class="page-item">
+								<a class="page-link" id="next_producto" tabindex="-1" aria-disabled="false">></a>
+							</li>
+							<li class="page-item">
+								<a class="page-link" id="last_producto" tabindex="-1" aria-disabled="false">>></a>
+							</li>
+						</ul>
+					</nav>
+				</div>
+			</section>
+
+			
+			
+
+
+		</main>
+		<footer class="container-fluid bg-dark text-white text-center py-3">
+			<p>©copy; 2023 Pelitos. Todos los derechos reservados.</p>
+			<a href="#" id="facebook">
+				<i class="bi bi-facebook"></i>
+			</a>
+			<a href="#" id="instagram">
+				<i class="bi bi-instagram"></i>
+			</a>
+			<a href="#" id="twitter">
+				<i class="bi bi-twitter"></i>
+			</a>
+			<a href="#" id="whatsapp">
+				<i class="bi bi-whatsapp"></i>
+			</a>
+		</footer>
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+			integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+			crossorigin="anonymous"></script>
+		<script src="../Js/pedido.js"></script>
+		<script src="../Js/productos.js"></script>
+		<script src="../Js/tienda.js"></script>
+		<script src="../Js/index.js"></script>
 </body>
+
 </html>
